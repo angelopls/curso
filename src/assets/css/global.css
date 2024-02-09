@@ -1,0 +1,240 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+b{
+	font-weight:bold;
+}
+.verticalcenter {
+	display: table-cell;
+	vertical-align: middle;
+}
+.horizontalcenter {
+	text-align: center;
+}
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Chrome/Safari/Opera */
+	-khtml-user-select: none; /* Konqueror */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE/Edge */
+	user-select: none; /* non-prefixed version, currently
+	 not supported by any browser */
+}
+.transition{
+	-webkit-transition: all 100ms linear; 
+	-moz-transition: all 100ms linear; 
+	-ms-transition: all 100ms linear; 
+	-khtml-transition: all 100ms linear; 
+	transition: all 100ms linear; 
+}
+.fullheight{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+	height:100%;
+}
+.fullwidth{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+	width:100%;
+}
+/* ALINHAMENTO */
+.align-left{
+	text-align:left;
+}
+.align-right{
+	text-align:right;
+}
+.align-center{
+	text-align:center;
+}
+.align-middle{
+	vertical-align:middle;
+}
+.align-top{
+	vertical-align:top;
+}
+.align-bottom{
+	vertical-align:bottom;
+}
+.text-hyphenate{
+	-webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    word-break:auto;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+.text-truncate{
+	position:relative;
+	max-width:100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.text-nowrap{
+	white-space: nowrap;
+}
+
+
+
+
+/* FLEX BOXES */
+.flex-container, .flex-container-row {
+   	padding: 0;
+	margin: 0;
+	list-style: none;
+	display:table-row;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   
+   -webkit-align-items: center;
+   	align-items: center;
+   	-webkit-justify-content: space-around;
+   	justify-content: space-around;
+   
+}
+.flex-container-col {
+   	padding: 0;
+	margin: 0;
+	list-style: none;
+	display:table-column;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+   	-webkit-flex-direction: column;
+   	flex-direction: column;
+   	-webkit-flex-wrap: wrap;
+   	flex-wrap: wrap;
+   	-webkit-flex-flow: col wrap;
+   	flex-flow: col wrap;
+}
+.flex-nowrap{
+	-webkit-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+.flex-wrap-reverse{
+	-webkit-flex-wrap: wrap-reverse;
+	flex-wrap: wrap-reverse;
+}
+.flex-align-left{
+	-webkit-justify-content: flex-start;
+   	justify-content: flex-start;
+}
+.flex-align-right{
+	-webkit-justify-content: flex-end;
+   	justify-content: flex-end;
+}
+.flex-align-center {
+   	-webkit-justify-content: center;
+   	justify-content: center;
+}
+.flex-align-space-around{
+   	-webkit-justify-content: space-around;
+   	justify-content: space-around;
+}
+.flex-align-space-between{
+   	-webkit-justify-content: space-between;
+   	justify-content: space-between;
+}
+.flex-align-top{
+	-webkit-align-items: flex-start;
+   	align-items: flex-start;
+}
+.flex-align-bottom{
+	-webkit-align-items: flex-end;
+   	align-items: flex-end;
+}
+.flex-align-middle{
+	-webkit-align-items: center;
+   	align-items: center;
+}
+.flex-item {
+	-webkit-flex:auto auto;
+	flex:auto auto;
+	-webkit-flex-grow:1;
+	flex-grow:1;
+}
+.flex-stretch{
+	-webkit-align-self:stretch;
+	align-self:stretch;
+}
+
+.one-side{
+    width: 50%;
+}
+.padding{
+	padding:5px;
+}
+.padding2{
+	padding:10px;
+}
+.padding3{
+	padding:15px;
+}
+.padding4{
+	padding:20px;
+}
+.padding5{
+	padding:25px;
+}
+.padding6{
+	padding:30px;
+}
+.padding7{
+	padding:35px;
+}
+.padding8{
+	padding:40px;
+}
+.margin{
+	margin:5px;
+}
+.margin2{
+	margin:10px;
+}
+.margin3{
+	margin:15px;
+}
+.margin4{
+	margin:20px;
+}
+.margin5{
+	margin:25px;
+}
+.margin6{
+	margin:30px;
+}
+.margin7{
+	margin:35px;
+}
+.margin8{
+	margin:40px;
+}
+
+.float-left{
+	float:left;
+}
+.float-right{
+	float:right;
+}
+.float-left::after, .float-right::after{
+	content:'';
+	clear:both;
+}

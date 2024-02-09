@@ -1,0 +1,143 @@
+#perfil{
+	position:relative;
+	padding: 30px;
+}
+#perfil-paginas{
+	position:relative;
+}
+@media screen and (max-width:700px){
+	#perfil{
+		padding:40px 20px;
+	}
+}
+#perfil .head h1{
+	position:relative;
+	color:#ffffff;
+	font-size:28px;
+	font-weight:normal;
+	font-family:"Nunito Sans", Montserrat;
+}
+#perfil .head-abas{
+	position:relative;
+}
+#perfil .head-abas li{
+	position:relative;
+	padding:20px 3px;
+	color:#CBCBCB;
+	font-size:14px;
+	margin:0px;
+	margin-right:15px;
+}
+#perfil .head-abas li::after{
+	position:absolute;
+	top:100%;
+	left:0;
+	width:0;
+	height:3px;
+	content:"";
+	background: rgb(41,100,239);
+	background: -moz-linear-gradient(90deg, rgba(41,100,239,1) 0%, rgba(32,166,177,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(41,100,239,1) 0%, rgba(32,166,177,1) 100%);
+	background: linear-gradient(90deg, rgba(41,100,239,1) 0%, rgba(32,166,177,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2964ef",endColorstr="#20a6b1",GradientType=1); 
+	
+	transition:all 200ms ease-in-out;
+	-webkit-transition:all 200ms ease-in-out;
+	-moz-transition:all 200ms ease-in-out;
+	-ms-transition:all 200ms ease-in-out;
+}
+#perfil .head-abas li.active{
+	color:#5396FB;
+}
+#perfil .head-abas li:hover::after, #perfil .head-abas li.active::after{
+	width:100%;
+}
+
+
+
+.fieldset1{
+	position:relative;
+	width:100%;
+	border-bottom:1px solid #707070;
+}
+.fieldset1 label{
+	position:absolute;
+	z-index:1;
+	width:100%;
+	height:70px;
+	line-height:130%;
+	padding:0px;
+	top:0;
+	left:0;
+	color:#CBCBCB;
+	font-size:12px;
+	font-weight:normal;
+	letter-spacing:1px;
+	opacity:0.7;
+}
+.fieldset1 input, .fieldset1 select{
+	position:relative;
+	width:100%;
+	background:transparent;
+	z-index:4;
+	height:70px;
+	border:0;
+	padding-left:170px;
+	color:#eeeeee;
+	font-size:14px;
+	letter-spacing:1px;
+}
+.fieldset1 select option{
+	color:#000000;
+}
+.fieldset1-error{
+	font-size:10px;
+	color:red;
+	margin-top:10px;
+}
+@media screen and (max-width:800px){
+	.fieldset1 label{
+		width:80px;
+	}
+	.fieldset1 input, .fieldset1 select{
+		padding-left:100px;
+	}
+}
+
+
+.pdados-itembox{
+	position:relative;
+	border-bottom:1px solid #707070;
+	padding:8px 0;
+	color:#ffffff;
+	min-height:70px;
+}
+.pdados-itembox p{
+	font-size:14px;
+	color:#949494;
+	letter-spacing:0.5px;
+}
+.pdados-itembox p small, .pdados-itembox p.small{
+	font-size:12px;
+}
+.pdados-itembox p, .pdados-itembox h6{
+	line-height:130%;
+	font-size:14px;
+}
+.pdados-itembox-label{
+	position:relative;
+	min-width:210px;
+}
+.pdados-itembox-icon{
+	position:relative;
+	padding:15px;
+	opacity:0.5;
+	font-size:18px;
+}
+@media screen and (max-width:800px){
+	.pdados-itembox-label{
+		width:100px;
+		min-width:100px;
+		padding-right:10px;
+	}
+}

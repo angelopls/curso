@@ -1,0 +1,134 @@
+
+
+
+#perfil-dados .image{
+	position:relative;
+	margin-right:10px;
+	color:#ffffff;
+	max-width:100%;
+}
+#perfil-dados .image p{
+	position:relative;
+	font-size:12px;
+	color:#cccccc;
+	letter-spacing:1px;
+}
+#perfil-dados .image figure{
+	position:relative;
+	width:300px;
+	height:300px;
+	background:rgba(255,255,255,0.1);
+	color:#777777;
+	border-radius:10px;
+	font-size:30px;
+	background-size:cover;
+	background-position:center center;
+}
+#perfil-dados .conteudo{
+	position:relative;
+}
+#perfil-dados .formulario{
+	position:relative;
+	border-radius:10px;
+	background:#141414;
+	padding:20px;
+}
+#perfil-dados .formulario fieldset{
+	margin-bottom:5px;
+}
+#perfil-dados h5{
+	color:#ffffff;
+	font-size:17px;
+	font-weight:normal;
+}
+
+#perfil-dados .image button{
+	position:relative;
+	background:transparent;
+	border:0;
+	color:#ffffff;
+	padding:15px;
+	cursor:pointer;
+}
+#perfil-dados .image button figure{
+	width:30px;
+	font-size:20px;
+}
+#perfil-dados .image button figcaption{
+	font-size:20px;
+}
+
+
+@media screen and (max-width:900px){
+	#perfil-dados{
+		flex-wrap:wrap;
+		-webkit-flex-wrap:wrap;
+	}
+	#perfil-dados .image{
+		position:relative;
+		margin-bottom:40px;
+		margin-right:0;
+		width:100%;
+	}
+	#perfil-dados .conteudo{
+		width:100%;
+	}
+}
+
+
+#perfil-dados .image .imgbox{
+	position:relative;
+	max-width:300px;
+}
+#perfil-dados .image .upload .input{
+	position:relative;
+	background:#1E1E1E;
+	border-radius:25px;
+	width:100%;
+	padding:0px;
+	height:40px;
+	border-top-right-radius:0;
+	border-bottom-right-radius:0;
+	overflow:hidden;
+	cursor:pointer;
+	max-width:100%;
+}
+#perfil-dados .image .upload .input input{
+	position: absolute;
+	width:1000%;
+	height: 1000%;
+	font-size:500px;
+	opacity: 0;
+	overflow: hidden;
+	z-index: 4;
+	cursor:pointer;
+}
+#perfil-dados .image .upload button{
+	position:relative;
+	content:"";
+	border-radius:0;
+	border-top-right-radius:25px;
+	border-bottom-right-radius:25px;
+	height:40px;
+	width:60px;
+	background: rgb(41,100,239);
+	background: -moz-linear-gradient(90deg, rgba(41,100,239,1) 0%, rgba(32,166,177,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(41,100,239,1) 0%, rgba(32,166,177,1) 100%);
+	background: linear-gradient(90deg, rgba(41,100,239,1) 0%, rgba(32,166,177,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2964ef",endColorstr="#20a6b1",GradientType=1);
+	padding:0; 
+}
+#perfil-dados .image .input label{
+	position:relative;
+	line-height:40px;
+	padding:0;
+	font-size:12px;
+	padding-left:15px;
+}
+
+
+#perfil-facebook{
+	position:relative;
+	color:#ffffff;
+	border-bottom:none;
+}
